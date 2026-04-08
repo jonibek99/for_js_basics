@@ -1,0 +1,65 @@
+// =======================
+// BOOLEAN METHODS / OPERATIONS
+// =======================
+
+// Boolean() -> qiymatni true/false ga o‘giradi
+Boolean(1) // true
+Boolean(0) // false
+Boolean("salom") // true
+Boolean("") // false
+Boolean(null) // false
+Boolean(undefined) // false
+
+// !! -> tez boolean ga o‘tkazish
+!!1 // true
+!!0 // false
+!!"text" // true
+!!"" // false
+
+// =======================
+// COMPARISON (TAQQOSLASH)
+// =======================
+
+// >, <, >=, <=
+5 > 3 // true
+5 < 3 // false
+
+// == (loose)
+5 == "5" // true ❗
+
+// === (strict)
+5 === "5" // false
+
+// != va !==
+5 != "5" // false
+5 !== "5" // true
+
+// =======================
+// LOGICAL OPERATORS
+// =======================
+
+// && (AND) -> ikkalasi ham true bo‘lsa true
+true && true // true
+true && false // false
+
+// || (OR) -> bittasi true bo‘lsa true
+true || false // true
+
+// ! (NOT) -> teskarisiga o‘giradi
+!true // false
+!false // true
+
+// =======================
+// REAL MISOL
+// =======================
+
+let age = 20
+
+// if ichida boolean ishlatiladi
+if (age > 18) {
+  console.log("Katta") // true bo‘lsa ishlaydi
+}
+
+// short circuit
+let name = ""
+let result = name || "Guest" // "Guest"

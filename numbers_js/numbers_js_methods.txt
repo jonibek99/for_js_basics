@@ -1,0 +1,80 @@
+// =======================
+// MATH OPERATORS (AMALLAR)
+// =======================
+
+// + -> qo‘shish
+5 + 3 // 8
+
+// - -> ayirish
+5 - 3 // 2
+
+// * -> ko‘paytirish
+5 * 3 // 15
+
+// / -> bo‘lish
+6 / 3 // 2
+
+// % -> qoldiq (modulo)
+5 % 2 // 1
+
+// ** -> daraja (exponent)
+2 ** 3 // 8
+
+// ++ -> 1 ga oshirish
+let a = 5
+a++ // 6
+
+// -- -> 1 ga kamaytirish
+let b = 5
+b-- // 4
+
+// =======================
+// MATH METHODS (Math object)
+// =======================
+
+// Math.round(x) -> yaqin butun songa yaxlitlaydi
+Math.round(4.6) // 5
+Math.round(4.4) // 4
+
+// Math.floor(x) -> pastga qarab yaxlitlaydi
+Math.floor(4.9) // 4
+
+// Math.ceil(x) -> yuqoriga yaxlitlaydi
+Math.ceil(4.1) // 5
+
+// Math.trunc(x) -> kasr qismini olib tashlaydi
+Math.trunc(4.9) // 4
+
+// Math.abs(x) -> modul (manfiy → musbat)
+Math.abs(-10) // 10
+
+// Math.pow(a,b) -> daraja (a^b)
+Math.pow(2,3) // 8
+
+// Math.sqrt(x) -> kvadrat ildiz
+Math.sqrt(16) // 4
+
+// Math.cbrt(x) -> kub ildiz
+Math.cbrt(27) // 3
+
+// Math.max(...) -> eng katta son
+Math.max(1,5,3) // 5
+
+// Math.min(...) -> eng kichik son
+Math.min(1,5,3) // 1
+
+// Math.random() -> 0 dan 1 gacha random son
+Math.random() // masalan: 0.732
+
+// random butun son (0–9)
+Math.floor(Math.random() * 10) // 0–9
+
+// Math.sign(x) -> son ishorasini beradi
+Math.sign(-5) // -1
+Math.sign(5)  // 1
+
+// Math.log(x) -> natural log (ln)
+Math.log(1) // 0
+
+// Math.log10(x) -> log10
+Math.log10(100) // 2
