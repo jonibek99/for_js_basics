@@ -23,5 +23,9 @@ let names=['sardor','ogabek','rustam']
 // console.log(names)
 
 
-let i=0
-while (i<names.length){console.log(names[i].toUpperCase(),i++)}
+// let i=0
+// while (i<names.length){console.log(names[i].toUpperCase(),i++)}
+// let i=0
+// do {console.log(i)
+//     i++
+// } while(i<100)
