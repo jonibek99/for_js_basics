@@ -52,18 +52,37 @@
 
 
 
-function count_chars(he){
-    let obj = {}
+// function count_chars(he){
+//     let obj = {}
 
-    for(let i = 0; i < he.length; i++){
-        let char = he[i]
+//     for(let i = 0; i < he.length; i++){
+//         let char = he[i]
 
-        if(obj[char]){
-            obj[char]++
-        } else {
-            obj[char] = 1
-        }
-    }
-    return obj
+//         if(obj[char]){
+//             obj[char]++
+//         } else {
+//             obj[char] = 1
+//         }
+//     }
+//     return obj
+// }
+// console.log(count_chars(String(prompt('enter something'))))
+
+
+// let area_center=(radius)=>{
+//     return 3.14*radius**2
+// }
+// let rad=5
+// console.log(area_center(rad))
+
+
+
+const age = (year, name) => {
+    const hisob = 2026 - year
+    return `Hello ${name}, you are ${hisob}`
 }
-console.log(count_chars(String(prompt('enter something'))))
+
+const year = Number(prompt('Please enter your birth year'))
+const name = prompt('Please enter your name')
+
+console.log(age(year, name))
