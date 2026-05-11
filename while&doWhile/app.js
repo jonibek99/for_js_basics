@@ -29,3 +29,15 @@ let names=['sardor','ogabek','rustam']
 // do {console.log(i)
 //     i++
 // } while(i<100)
+
+
+// let i=1
+// let b=20
+// while (i<=b){
+//     if (i%2==0){console.log(i)}
+//     i++
+// }
+
+let change_me=()=>{
+    document.getElementById('bnt').innerText='Hello Dom'
+}
