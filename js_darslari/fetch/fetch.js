@@ -1,0 +1,14 @@
+window.addEventListener('DOMContentLoaded',()=>{
+    fetch('https://jsonplaceholder.typicode.com/posts',{
+        method:'GET',
+        headers:{'Content-Type':'Application/json'},
+    })
+    .then(responce=>responce.json())
+    .then(data=>{
+        console.log(data[1])
+    }).catch(error=>{
+        console.log(error)
+    }).finally(()=>{
+        console.log('finaly')
+    })
+})
